@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Semana de Geomática 2023</title>
+<link rel="icon" type="image/x-icon" href="img/IGAC_Logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=Livvic' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<script src="https://kit.fontawesome.com/0e23aed592.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">INICIO</a>
+    <a href="#program" class="w3-bar-item w3-button">PROGRAMACIÓN</a>
+    <a href="#about" class="w3-bar-item w3-button">INSCRIPCIONES</a>
+    <a href="#myMap" class="w3-bar-item w3-button">ACERCA DE</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Del 14 al 16 de Junio - Bogotá, Colombia</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+    <p><a href="#program" class="w3-button w3-xxlarge w3-black">Ver programación</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="program">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">PROGRAMACIÓN</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Miercoles');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Miércoles 14</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Jueves');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Jueves 15</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Viernes');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Viernes 16</div>
+      </a>
+    </div>
+
+    <div id="Miercoles" class="w3-container menu w3-padding-32 w3-white">
+        
+        <h3 class="w3-tag w3-dark-grey w3-round">9:00 a.m. - 9:20 a.m.</h3>
+        <h1><span class="w3-tag w3-green w3-round">Apertura!</span> <b>Geografía y tecnologías geoespaciales al servicio de la gente.</b> </h1> 
+        <h2 class="w3-text-grey">Ana María Aljure Reales - Directora general del IGAC</h2>
+      <hr>
+   
+        <h3 class="w3-tag w3-dark-grey w3-round">9:25 a.m. - 9:45 a.m.</h3>
+        <h1><b>Tecnologías e información geoespaciales al servicio del País.</b> </h1>
+        <h2 class="w3-text-grey">Marta Lucía Ramírez - Vicepresidenta de la república</h2>
+      <hr>
+      
+        <h3 class="w3-tag w3-dark-grey w3-round">9:50 a.m. - 10:10 a.m.</h3>
+        <h1><b>Transformación digital del país y evolución de los sistemas de información.</b> </h1>
+        <h2 class="w3-text-grey">Victor Muñoz - Director del DAPRE</h2>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">10:15 a.m. - 11:15 a.m.</h3>
+      <h1><b>Tenencia de la tierra: Tecnologías y metodologías avanzadas de países en desarrollo
+        y los sistemas en países desarrollados.</b> </h1>
+      <h2 class="w3-text-grey">Daniel Páez - Ingeniero civil y Doctor en geomática</h2>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">11:30 a.m. - 12:00 a.m.</h3>
+      <h1> <span class="w3-tag w3-grey w3-round">Conferencia magistral</span><b> Aparecer en el mapa: un derecho de todos. Aplicación de la tecnología como herramienta para una sociedad justa.
+        Democratización de la nomenclatura y direcciones, el gran reto.
+      </b> </h1>
+      <h2 class="w3-text-grey">Thierry Jean - Presidente de Instituto Address For All</h2>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">12:00 a.m. - 2:00 p.m.</h3>
+      <h1 style="background-color: beige;" class="w3-center"><i class="fa-solid fa-utensils" style="color: #ffb752;"></i><b>  Almuerzo libre</b></h1>
+      
+      <hr>
+      <h3 class="w3-tag w3-dark-grey w3-round">2:00 p.m. - 4:00 p.m.</h3>
+      <h1> <span class="w3-tag w3-grey w3-round">Panel</span><b> Catastro Multipropósito como insumo para la regularización masiva de la propiedad.
+      </b> </h1>
+      <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Andrés Guarín - Consultor Programa Swiss Tierras Colombia</h2>
+      <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Elkin Pérez Pineda - Consultor LADM IGAC</h2>
+      <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Diego Fernando Sánchez Vargas - Consultor LADM IGAC</h2>
+    </div>
+
+    <div id="Jueves" class="w3-container menu w3-padding-32 w3-white">
+        <h3 class="w3-tag w3-dark-grey w3-round">8:00 a.m. - 10:35 a.m.</h3>
+        <h1> <span class="w3-tag w3-grey w3-round">Panel y conversatorio</span><b> Retos en la modernización de catastro en diferentes países.
+            Enfoque países latinoamericanos.
+        </b> </h1> 
+        <h2 class="w3-text-grey"><span class="w3-tag w3-light-grey w3-round">Modera:</span> Daniel Paez - Presidente Comisión 7-FIG</h2>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Ana María Aljure Reales - Directora General IGAC</h2>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Silvia Amado - Consultora Banco Mundial</h2>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Valrie Grant - WGIC y UN-GGIM: Américas</h2>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Ivonne Astrid Moreno Horta - Banco Mundial Colombia</h2>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Jhon Fredy González - Director de Gestión Catastral IGAC</h2>
+      <hr>
+   
+        <h3 class="w3-tag w3-dark-grey w3-round">10:50 a.m. - 11:20 a.m.</h3>
+        <h1><b>Cómo gestionar y analizar grandes cantidades de datos geoespaciales. Mirando hacia el catastro multipropósito.</b> </h1>
+        <h2 class="w3-text-grey">Yuri Veneziani - Experto de soluciones geoespaciales en Hexagon Safety (Brasil)</h2>
+      <hr>
+      
+        <h3 class="w3-tag w3-dark-grey w3-round">11:25 a.m. - 12:00 a.m.</h3>
+        <h1><b>Estado de la gestión de información geoespacial. Caso Uruguay y América Latina.</b> </h1>
+        <h2 class="w3-text-grey">Silvia Amado - Experta en catastro e información geoespacial. Consultora Banco Mundial (Uruguay)</h2>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">12:00 a.m. - 2:00 p.m.</h3>
+      <h1 style="background-color: beige;" class="w3-center"><i class="fa-solid fa-utensils" style="color: #ffb752;"></i><b>  Almuerzo libre</b></h1>
+      
+      <hr>
+      <h3 class="w3-tag w3-dark-grey w3-round">2:00 p.m. - 3:00 p.m.</h3>
+      <h1> <span class="w3-tag w3-grey w3-round">Conferencia magistral</span><b> Uso ético de los datos geográficos: privacidad y enseñanza.
+      </b> </h1>
+      <h2 class="w3-text-grey">Rosario Casanova - Presidenta Red Académica UN-GGIM Américas</h2>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">3:05 p.m. - 4:55 p.m.</h3>
+      <h1> <span class="w3-tag w3-grey w3-round">Panel</span><b>  Formación e Innovación en tecnologías geoespaciales frente a los retos país. El papel
+        de la academia.</b> </h1>
+      <h2 class="w3-text-grey"><span class="w3-tag w3-light-grey w3-round">Modera:</span> Susan Benavides - IGAC</h2>
+      <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Rosario Casanova - Presidenta Red Académica UN-GGIM Américas</h2>
+      <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Raúl Joya - Director Departamento Observatorio Astronómico de la Universidad Sergio Arboleda</h2>
+      <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Giovanna Osorio - Directora Especialización en Prevención, Reducción y Atención de Desastres
+        de la Universidad Católica de Manizales</h2>
+      <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Wladimir Mejía Ayala - Coordinador Académico Estudios de Posgrado en Geografía
+        de la Universidad Pedagógica y Tecnológica de Colombia</h2>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">5:00 p.m. - 5:30 p.m.</h3>
+      <h1><b>Uso de métodos indirectos para el proceso de levantamiento catastral. Casos en los municipios: Puerto Arica, La Pedrera y Tarapacá,
+        departamento de Amazonas, Colombia.</b> </h1>
+      <h2 class="w3-text-grey">Carlos Fernández - Dirección de Gestión Catastral IGAC</h2>
+
+    </div>
+
+
+    <div id="Viernes" class="w3-container menu w3-padding-32 w3-white">
+        <h3 class="w3-tag w3-dark-grey w3-round">8:10 a.m. - 9:40 a.m.</h3>
+        <h1> <b>Intercambio de experiencias Colombia - India en el uso de tecnologías de observación de la tierra.</b> </h1> 
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Jean Rogelio Linero Cueto - Director de Generación de Conocimiento Minciencias</h2>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Susan Benavides - Directora Investigación y Prospectiva IGAC</h2>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Alexander Páez - Director de investigación IGAC</h2>
+        <div>
+            <img src="img/isro.png" style="width:150px" title="ISROtak as">
+            <img src="img/fac.png" style="width:150px" >
+            <img src="img/upb.png" style="width:150px" >
+            <img src="img/uis.png" style="width:150px" >
+            <img src="img/cipsela.jpg" style="width:150px" >
+        </div>
+      <hr>
+   
+        <h3 class="w3-tag w3-dark-grey w3-round">9:45 a.m. - 10:50 a.m.</h3>
+        <h1><b>Avances de información georreferenciada como soporte de la política de gestión de riesgos de desastres del sector minero
+            energético.</b> </h1>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Rafael Amaya - Doctor en ingeniería y ciencias
+            de la información PNUD</h2>
+        <h2 class="w3-text-grey"><i class="fa-solid fa-caret-right"></i> Alejandro Cifuentes Ruiz - Ingeniero de sistemas
+            Ministerio de Minas y Energía</h2>
+      <hr>
+      
+        <h3 class="w3-tag w3-dark-grey w3-round">10:55 a.m. - 12:00 a.m.</h3>
+        <h1><b>Diversidad en la industria geoespacial: Perspectivas de las mujeres.</b> </h1>
+        <h2 class="w3-text-grey">Valrie Grant - WGIC y UN-GGIM: Américas</h2>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">12:00 a.m. - 2:00 p.m.</h3>
+      <h1 style="background-color: beige;" class="w3-center"><i class="fa-solid fa-utensils" style="color: #ffb752;"></i><b>  Almuerzo libre</b></h1>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">2:00 a.m. - 3:15 a.m.</h3>
+        <h1><b>Tecnologías satelitales de observación de la tierra como apoyo a la prevención y atención de desastres.</b> </h1>
+        <h2 class="w3-text-grey">Juan Carlos Villagrán de León - Jefe de la Oficina ONU - SPIDER Bonn-Alemania</h2>
+      <hr>
+
+      <h3 class="w3-tag w3-dark-grey w3-round">3:20 p.m. - 4:30 p.m.</h3>
+      <h1> <span class="w3-tag w3-red w3-round">Cierre!</span> <span class="w3-tag w3-grey w3-round">Conferencia magistral</span><b> 
+        El último lugar de la tierra: un colombiano explorando Antártida y el universo.
+      </b> </h1>
+      <h2 class="w3-text-grey">Juan Diego Soler - Investigador y científico de INAF (Italia)</h2>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- Inscripcion Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+    <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Inscríbete a la Semana de Geomática</h1>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nombre completo" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Número de identificación" required name="Ident"></p>
+          <p>Fecha de nacimiento: <input class="w3-input w3-padding-16 w3-border" type="date" placeholder="Fecha de nacimiento" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Correo electrónico" required name="Name"></p>
+          <p><input type="checkbox" name="uno"> Acepto y autorizo al IGAC (Instituto Geográfico Agustín Codazzi) a recopilar, procesar y utilizar mis datos 
+            personales proporcionados durante la inscripción en la Semana de Geomática, con el propósito exclusivo de gestionar mi participación en 
+            el evento y facilitar la comunicación relacionada con el mismo, de acuerdo con la política de privacidad del IGAC.</p> 
+          <p><button class="w3-button w3-light-grey w3-block" type="submit">REGISTRARSE</button></p>
+        </form>
+      </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+    <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Acerca del evento</h1>
+        <p>Inscríbete a la Semana Geomática, que en su decima versión se realizará entre el 14 al 16 de junio del 2023. 
+            A través de esta inscripción podrás asistir de todas las actividades del evento. La reunión se llevará a cabo en 
+            el museo Maloka, ubicado en Bogotá-Colombia.</p>
+        
+        <p><b>¿Como llegar?</b></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15906.622590674177!2d-74.1094619!3d4.6553526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b9054993fbd%3A0x938e1d73ccde6192!2sMaloka%20Museo%20Interactivo!5e0!3m2!1ses-419!2sco!4v1709099655111!5m2!1ses-419!2sco" width="970" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+      </div>
+    
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+    <p>Instituto Geográfico Agustín Codazzi - IGAC</p>
+  <p>Con el apoyo de:</p>
+  <div>
+    <img src="img/datum.png" style="width:300px" title="ISROtak as">
+    <img src="img/aec.jpg" style="width:300px" >
+    <img src="img/maxar.jpg" style="width:300px" >
+</div>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
